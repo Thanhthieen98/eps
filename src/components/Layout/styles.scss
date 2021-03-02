@@ -1,0 +1,12 @@
+.layout {
+  max-width: 375px;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  .container {
+    margin: 20px;
+    p {
+      font-weight: bolder;
+    }
+  }
+}

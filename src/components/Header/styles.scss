@@ -1,0 +1,18 @@
+.header {
+  padding: 20px 20px 0 20px; 
+}
+.header--content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  p {
+    margin: 0;
+    size: 28px;
+    line-height: 1.32;
+    font-style: normal;
+    font-weight: bold;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+  }
+}

@@ -1,0 +1,23 @@
+@import './custom/atomics.scss';
+.d-flex{
+  display: flex !important;
+}
+.justify-content--center {
+  justify-content: center;
+}
+
+.justify-content--between {
+  justify-content: space-between;
+}
+
+.justify-content--start {
+  justify-content: flex-start;
+}
+
+.justify-content--end {
+  justify-content: flex-end;
+}
+
+.align-item--center {
+  align-items: center;
+}

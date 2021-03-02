@@ -1,0 +1,13 @@
+.btn--add {
+  position: fixed !important;
+  bottom: 21px;
+  right: calc((100vw - 375px) / 2 + 10px);
+}
+
+@media(max-width : 375px){
+  .btn--add {
+    position: fixed !important;
+    bottom: 21px;
+    right: 10px;
+  } 
+}

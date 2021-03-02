@@ -1,0 +1,39 @@
+.profile-name {
+  display: flex;
+  justify-content: center;
+  .profile-name__avatar {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    span {
+      font-size: 55px;
+    }
+  }
+  .profile-name__username {
+    font-size: 20px;
+  }
+}
+.profile-info {
+  .profile-info__list {
+    width: 100%;
+    hr {
+      opacity: 0.2;
+    }
+  }
+}
+
+.profile__btn {
+  transition: transform .2s
+}
+
+.profile__btn:hover {
+  transform: scale(1.5);
+}
+.profile-bank {
+  .profile-info__list{
+    p{
+      margin: 0;
+      line-height: 1.8;
+    }
+  }
+}
